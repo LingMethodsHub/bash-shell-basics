@@ -49,7 +49,7 @@ GUIs are great -- easy and intuitive, but they often don't scale very well. Whil
 
 In contrast to the GUI is the **command-line interface**, or the **shell**. The The command-line interface is far less visual, but far more powerful, especially for automating well-defined instructions like those just described. 
 
-For each command entered, the shell reads the command, evaluates and executes it, and prints the output of the command. It then loops back and waits for the next command. This is known as a **read-evalaute-print loop**. 
+For each command entered, the shell reads the command, evaluates and executes it, and prints the output of the command. It then loops back and waits for the next command. This is known as a **read-evaluate-print loop**. 
 
 ## Current working directory
 
@@ -137,7 +137,7 @@ $ man ls
 
 ## Navigating
 
-A key part of the command line is the ability to navigate through the various directories in the computer. This is analagous to clicking on a directory and then a sub-directory and then maybe hitting the back arrow -- even using the GUI, we're also navigating through different locations in the computer. For this to work well, it helps to think of the computer as a massive tree structure of directories -- there are root directories, parent directories, and so forth. Using the command `cd` you can move up, down, and around on that tree structure. 
+A key part of the command line is the ability to navigate through the various directories in the computer. This is analogous to clicking on a directory and then a sub-directory and then maybe hitting the back arrow -- even using the GUI, we're also navigating through different locations in the computer. For this to work well, it helps to think of the computer as a massive tree structure of directories -- there are root directories, parent directories, and so forth. Using the command `cd` you can move up, down, and around on that tree structure. 
 
 Let's say you just want to go to a directory contained in your current working directory. You can use the following:
 ```{bash}
