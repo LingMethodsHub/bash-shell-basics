@@ -213,6 +213,7 @@ Let's create a dummy corpus of transcripts so we can practice manipulating and m
 ```{bash}
 #| eval: false
 $ cd mycorpus
+$ vim speaker1.txt
 
 # press i to insert
 
